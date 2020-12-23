@@ -311,29 +311,32 @@
 
   <label  class="form-label">
     <span class="label-name">Имя</span>
-    <div>
+    <span class="input-and-svg">
     <input type="text"  name="user-name" class="form-input"  >
-    <svg class="form-icon"><use href="./images/sprite.svg#icon-person-black"></use></svg></div>
+    <svg class="form-icon"><use href="./images/sprite.svg#icon-person-black"></use></svg>
+  </span>
   </label>
  
 
   <label  class="form-label">
     <span class="label-name">Телефон</span>
-    <div>
+    <span class="input-and-svg">
     <input type="tel"  name="user-tel" class="form-input">
     <svg class="form-icon">
       <use href="./images/sprite.svg#icon-phone-black"></use>
-    </svg></div>
+    </svg>
+    </span>
   </label>
   
 
   <label class="form-label">
     <span class="label-name">Почта</span> 
-    <div>
+    <span class="input-and-svg">
     <input type="email"  name="user-email" class="form-input">
     <svg class="form-icon">
       <use href="./images/sprite.svg#icon-email-black"></use>
-    </svg></div>
+    </svg>
+    </span>
 </label>
   
   <label  class="form-label ">
@@ -343,16 +346,13 @@
     rows="20" 
     placeholder="Введите текст" 
     class="form-input-comment" 
-    resize:none></textarea>
+    ></textarea>
     
   </label>
   <div class="label-checkbox">
   <label class="form-label checkbox">
     <input type="checkbox" name="accept" class="input-checkbox" >
-    <span class="icon-check">
-    </span>
-   
-    <span class="accept-text">Соглашаюсь с рассылкой и принимаю <a href="#" class="conditions">Условия договора</a></span>
+   <span class="accept-text">Соглашаюсь с рассылкой и принимаю  <a href="#" class="conditions"> Условия договора</a></span>
   </label>
   </div>
   <button type="submit" class="button-send">Отправить</button>
